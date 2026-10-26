@@ -14,10 +14,10 @@
  * 実行: node add-negative-keywords.mjs           … 検証のみ
  *       node add-negative-keywords.mjs --apply   … 実際に追加
  */
-import { loadConfig, loadTokens, refreshAccessToken, saveTokens, normalizeCustomerId } from './lib/google-ads-api.mjs';
+import { loadConfig, loadTokens, refreshAccessToken, saveTokens, normalizeCustomerId, API_VERSION } from './lib/google-ads-api.mjs';
 import { callApi } from './lib/google-ads-api.mjs';
 
-const API_VERSION = 'v22';
+// バージョンは lib/google-ads-api.mjs の API_VERSION に一本化（2026-10-26）
 const APPLY = process.argv.includes('--apply');
 const CAMPAIGN_NAME = '04.税理士提携';
 

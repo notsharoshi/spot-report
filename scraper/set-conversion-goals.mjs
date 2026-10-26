@@ -17,9 +17,9 @@
  * 実行: node set-conversion-goals.mjs           … 検証のみ（変更しない）
  *       node set-conversion-goals.mjs --apply   … 実際に変更する
  */
-import { loadConfig, loadTokens, refreshAccessToken, saveTokens, normalizeCustomerId } from './lib/google-ads-api.mjs';
+import { loadConfig, loadTokens, refreshAccessToken, saveTokens, normalizeCustomerId, API_VERSION } from './lib/google-ads-api.mjs';
 
-const API_VERSION = 'v22';
+// バージョンは lib/google-ads-api.mjs の API_VERSION に一本化（2026-10-26）
 const APPLY = process.argv.includes('--apply');
 
 // 主要目標から外す（＝入札の最適化対象から外す）アクション
