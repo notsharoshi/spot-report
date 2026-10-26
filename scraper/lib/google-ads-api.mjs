@@ -18,7 +18,10 @@ const CONFIG_FILE = path.join(AUTH_DIR, 'google-ads-api-config.json');
 // （"Version v20 is deprecated. Requests to this version will be blocked."）。
 // 実測で v21 が利用可能。Googleは定期的に旧バージョンを打ち切るため、
 // UNSUPPORTED_VERSION が出たらここを上げること。
-const API_VERSION = 'v22';
+// 【2026-10-26】v22 も廃止され UNSUPPORTED_VERSION で全リクエストが弾かれていた
+// （"Version v22 is deprecated. Requests to this version will be blocked."）。
+// 実測で v23〜v26 が通り、v27 はまだ存在しない（404）。一番寿命の長い v26 にする。
+const API_VERSION = 'v26';
 
 export function loadConfig() {
   if (!fs.existsSync(CONFIG_FILE)) {

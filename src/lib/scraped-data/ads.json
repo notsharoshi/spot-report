@@ -2,8 +2,8 @@
   "customerId": "989-421-6094",
   "accountName": "スポット社労士くん",
   "period": {
-    "from": "2026-09-19",
-    "to": "2026-10-18"
+    "from": "2026-09-26",
+    "to": "2026-10-25"
   },
   "days": 30,
   "totals": {
@@ -20,69 +20,6 @@
   },
   "campaigns": [],
   "timeline": [
-    {
-      "date": "2026-09-19",
-      "clicks": 0,
-      "conversionsPrimary": 0,
-      "conversionsSecondary": 0,
-      "conversions": 0,
-      "allConversions": 0,
-      "cost": 0
-    },
-    {
-      "date": "2026-09-20",
-      "clicks": 0,
-      "conversionsPrimary": 0,
-      "conversionsSecondary": 0,
-      "conversions": 0,
-      "allConversions": 0,
-      "cost": 0
-    },
-    {
-      "date": "2026-09-21",
-      "clicks": 0,
-      "conversionsPrimary": 0,
-      "conversionsSecondary": 0,
-      "conversions": 0,
-      "allConversions": 0,
-      "cost": 0
-    },
-    {
-      "date": "2026-09-22",
-      "clicks": 0,
-      "conversionsPrimary": 0,
-      "conversionsSecondary": 0,
-      "conversions": 0,
-      "allConversions": 0,
-      "cost": 0
-    },
-    {
-      "date": "2026-09-23",
-      "clicks": 0,
-      "conversionsPrimary": 0,
-      "conversionsSecondary": 0,
-      "conversions": 0,
-      "allConversions": 0,
-      "cost": 0
-    },
-    {
-      "date": "2026-09-24",
-      "clicks": 0,
-      "conversionsPrimary": 0,
-      "conversionsSecondary": 0,
-      "conversions": 0,
-      "allConversions": 0,
-      "cost": 0
-    },
-    {
-      "date": "2026-09-25",
-      "clicks": 0,
-      "conversionsPrimary": 0,
-      "conversionsSecondary": 0,
-      "conversions": 0,
-      "allConversions": 0,
-      "cost": 0
-    },
     {
       "date": "2026-09-26",
       "clicks": 0,
@@ -283,6 +220,69 @@
     },
     {
       "date": "2026-10-18",
+      "clicks": 0,
+      "conversionsPrimary": 0,
+      "conversionsSecondary": 0,
+      "conversions": 0,
+      "allConversions": 0,
+      "cost": 0
+    },
+    {
+      "date": "2026-10-19",
+      "clicks": 0,
+      "conversionsPrimary": 0,
+      "conversionsSecondary": 0,
+      "conversions": 0,
+      "allConversions": 0,
+      "cost": 0
+    },
+    {
+      "date": "2026-10-20",
+      "clicks": 0,
+      "conversionsPrimary": 0,
+      "conversionsSecondary": 0,
+      "conversions": 0,
+      "allConversions": 0,
+      "cost": 0
+    },
+    {
+      "date": "2026-10-21",
+      "clicks": 0,
+      "conversionsPrimary": 0,
+      "conversionsSecondary": 0,
+      "conversions": 0,
+      "allConversions": 0,
+      "cost": 0
+    },
+    {
+      "date": "2026-10-22",
+      "clicks": 0,
+      "conversionsPrimary": 0,
+      "conversionsSecondary": 0,
+      "conversions": 0,
+      "allConversions": 0,
+      "cost": 0
+    },
+    {
+      "date": "2026-10-23",
+      "clicks": 0,
+      "conversionsPrimary": 0,
+      "conversionsSecondary": 0,
+      "conversions": 0,
+      "allConversions": 0,
+      "cost": 0
+    },
+    {
+      "date": "2026-10-24",
+      "clicks": 0,
+      "conversionsPrimary": 0,
+      "conversionsSecondary": 0,
+      "conversions": 0,
+      "allConversions": 0,
+      "cost": 0
+    },
+    {
+      "date": "2026-10-25",
       "clicks": 0,
       "conversionsPrimary": 0,
       "conversionsSecondary": 0,
@@ -1905,25 +1905,14 @@
     "noActiveCampaigns": true,
     "noDelivery": true,
     "deliveryBlock": {
-      "enabledCampaigns": [
-        "04.税理士提携"
-      ],
-      "servableAds": 1,
-      "disapprovedAds": [
-        {
-          "campaign": "04.税理士提携",
-          "approvalStatus": "DISAPPROVED",
-          "reviewStatus": "REVIEWED",
-          "policies": [
-            "GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES (FULLY_LIMITED)"
-          ]
-        }
-      ],
-      "reason": "有効キャンペーンの広告が不承認です: GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES"
+      "enabledCampaigns": [],
+      "servableAds": 0,
+      "disapprovedAds": [],
+      "reason": "有効なキャンペーンが1本もありません（すべて一時停止/削除済み）"
     },
     "degraded": [],
     "source": "google-ads-api"
   },
   "source": "google-ads-api",
-  "scrapedAt": "2026-10-18T23:25:50.481Z"
+  "scrapedAt": "2026-10-26T04:57:31.603Z"
 }
